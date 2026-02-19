@@ -12,7 +12,6 @@ jobs:
  quality:
    runs-on: ubuntu-latest
 
-
    services:
      postgres:
        image: postgres:16
@@ -40,6 +39,7 @@ jobs:
 
 
    steps:
+
      - name: Checkout
        uses: actions/checkout@v4
 
